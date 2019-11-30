@@ -33,7 +33,7 @@
 #define bq76940 3
 
 // output information to serial console for debugging
-// #define BQ769X0_DEBUG 1
+#define BQ769X0_DEBUG 1
 #ifdef BQ769X0_DEBUG
     #define LOG_PRINT(x)    Serial.print(x)
     #define LOG_PRINTLN(x)  Serial.println(x)
