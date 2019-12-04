@@ -273,6 +273,8 @@ void bq769x0::update()
   updateVoltages();
   updateTemperatures();
   updateBalancingSwitches();
+  enableDischarging();
+  enableCharging();
 }
 
 //----------------------------------------------------------------------------
